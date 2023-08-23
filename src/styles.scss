@@ -1,9 +1,16 @@
-html,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
 body {
   height: 100%;
-  background-image: linear-gradient(to right, #8360c3, #2ebf91);
-}
-body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
